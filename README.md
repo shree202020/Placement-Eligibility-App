@@ -15,3 +15,19 @@ Python 3.7
 Streamlit
 SQLite
 Pandas
+
+# Setup Instructions
+1️⃣ Clone this repo
+git clone https://github.com/yourusername/PlacementApp.git
+cd PlacementApp
+
+2️⃣ Create a virtual environment (recommended)
+python -m venv env
+source env/bin/activate   # For Linux/Mac
+env\Scripts\activate      # For Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Run the Streamlit app
+streamlit run streamlit_app.py
